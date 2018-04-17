@@ -1,0 +1,3 @@
+join,joined,joined,joins,joining
+jump,jumped,jumped,jumps,jumping
+justify,justified,justified,justifies,justifying

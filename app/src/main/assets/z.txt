@@ -1,0 +1,1 @@
+{"wordList":[{"english":"zero","klingon":"pagh","conjgation":"0"},{"english":"zone","klingon":"mIch","conjgation":"0"},{"english":"sector","klingon":"mIch","conjgation":"0"}]}

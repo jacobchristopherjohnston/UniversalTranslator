@@ -1,0 +1,9 @@
+value,valued,valued,values,valuing
+vanish,vanished,vanished,vanishes,vanishing
+vary,varied,varied,varies,varying
+verify,verified,verified,verifies,verifying
+vex,vexed,vexed,vexes,vexing
+vie,vied,vied,vies,vying
+view,viewed,viewed,views,viewing
+violate,violated,violated,violates,violating
+vomit,vomited,vomited,vomits,vomiting

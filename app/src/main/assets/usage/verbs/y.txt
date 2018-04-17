@@ -1,0 +1,3 @@
+yawn,yawned,yawned,yawns,yawning
+yell,yelled,yelled,yells,yelling
+yield,yielded,yielded,yields,yielding

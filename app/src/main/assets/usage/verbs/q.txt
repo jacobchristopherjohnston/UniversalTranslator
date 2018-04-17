@@ -1,0 +1,4 @@
+qualify,qualified,qualified,qualifies,qualifying
+quarrel,quarrelled,quarrelled,quarrels,quarrelling
+question,questioned,questioned,questions,questioning
+quit,quit,quit,quits,quitting

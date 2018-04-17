@@ -4,15 +4,160 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="jcj.universaltranslator.MainActivity">
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewHello"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ProgressBar
+            android:indeterminate="true"
+            android:layout_width="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:layout_marginTop="35dp"
+            android:id="@+id/progressBarTranslate"
+            android:layout_below="@+id/textViewHello"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewResponse"
+            android:layout_below="@+id/progressBarTranslate"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="75dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textViewEnglishPermutation"
+            android:layout_above="@+id/relativeLayoutVisual"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutVisual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/linearLayoutVoiceSelection">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/square"
+                android:id="@+id/imageView1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"/>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/square"
+                android:layout_marginRight="10dp"
+                android:id="@+id/imageView2"
+                android:layout_toEndOf="@+id/imageView1"
+                android:layout_marginTop="150dp"/>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/square"
+                android:id="@+id/imageView3"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_marginTop="150dp"/>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/square"
+                android:id="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView3"
+                android:layout_marginTop="150dp"/>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/square"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:id="@+id/imageView5"
+                android:layout_marginTop="150dp"/>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/square"
+                android:layout_toEndOf="@+id/imageView5"
+                android:id="@+id/imageView6"
+                android:layout_marginTop="150dp"/>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/square"
+                android:layout_toEndOf="@+id/imageView6"
+                android:id="@+id/imageView7"
+                android:layout_marginTop="150dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/buttonAddWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/relativeLayoutVisual"
+            android:layout_above="@id/linearLayoutVoiceSelection"
+            android:text="add"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutVoiceSelection"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkboxUS"
+                android:checked="true"
+                android:text="US"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkboxUK"
+                android:text="UK"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkboxGerman"
+                android:text="German"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkboxJapanese"
+                android:text="Japanese"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkboxFrench"
+                android:text="French"/>
+        </LinearLayout>
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

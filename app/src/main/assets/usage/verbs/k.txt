@@ -1,0 +1,9 @@
+keep,kept,kept,keeps,keeping
+kick,kicked,kicked,kicks,kicking
+kid,kidded,kidded,kids,kidding
+kill,killed,killed,kills,killing
+kiss,kissed,kissed,kisses,kissing
+kneel,knelt,knelt,kneels,kneeling
+knit,knit,knit,knits,knitting
+knock,knocked,knocked,knocks,knocking
+know,knew,known,knows,knowing

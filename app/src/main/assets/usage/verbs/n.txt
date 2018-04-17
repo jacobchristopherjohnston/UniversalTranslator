@@ -1,0 +1,11 @@
+nail,nailed,nailed,nails,nailing
+nap,napped,napped,naps,napping
+need,needed,needed,needs,needing
+neglect,neglected,neglected,neglects,neglecting
+nip,nipped,nipped,nips,nipping
+nod,nodded,nodded,nods,nodding
+note,noted,noted,notes,noting
+notice,noticed,noticed,notices,noticing
+notify,notified,notified,notifies,notifying
+nourish,nourished,nourished,nourishes,nourishing
+nurse,nursed,nursed,nurses,nursing

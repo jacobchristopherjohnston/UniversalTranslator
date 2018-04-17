@@ -1,0 +1,7 @@
+understand,understood,understood,understands,understanding
+undo,undid,undone,undoes,undoing
+uproot,uprooted,uprooted,uproots,uprooting
+upset,upset,upset,upsets,upsetting
+urge,urged,urged,urges,urging
+use,used,used,uses,using
+utter,uttered,uttered,utters,uttering
